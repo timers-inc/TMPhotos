@@ -14,6 +14,10 @@
 		12EC3F8A1C292B5300939351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EC3F891C292B5300939351 /* Assets.xcassets */; };
 		12EC3F8D1C292B5300939351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EC3F8B1C292B5300939351 /* LaunchScreen.storyboard */; };
 		12EC3F981C292B5300939351 /* TMPhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC3F971C292B5300939351 /* TMPhotosTests.m */; };
+		12EC3FAA1C292B8900939351 /* TMAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC3FA31C292B8900939351 /* TMAsset.m */; };
+		12EC3FAB1C292B8900939351 /* TMAssetsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC3FA51C292B8900939351 /* TMAssetsCollection.m */; };
+		12EC3FAC1C292B8900939351 /* TMImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC3FA71C292B8900939351 /* TMImageCache.m */; };
+		12EC3FAD1C292B8900939351 /* TMCachingImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EC3FA91C292B8900939351 /* TMCachingImageManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		12EC3F931C292B5300939351 /* TMPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EC3F971C292B5300939351 /* TMPhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPhotosTests.m; sourceTree = "<group>"; };
 		12EC3F991C292B5300939351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EC3FA21C292B8900939351 /* TMAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAsset.h; sourceTree = "<group>"; };
+		12EC3FA31C292B8900939351 /* TMAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAsset.m; sourceTree = "<group>"; };
+		12EC3FA41C292B8900939351 /* TMAssetsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAssetsCollection.h; sourceTree = "<group>"; };
+		12EC3FA51C292B8900939351 /* TMAssetsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAssetsCollection.m; sourceTree = "<group>"; };
+		12EC3FA61C292B8900939351 /* TMImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMImageCache.h; sourceTree = "<group>"; };
+		12EC3FA71C292B8900939351 /* TMImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMImageCache.m; sourceTree = "<group>"; };
+		12EC3FA81C292B8900939351 /* TMCachingImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCachingImageManager.h; sourceTree = "<group>"; };
+		12EC3FA91C292B8900939351 /* TMCachingImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCachingImageManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,14 @@
 				12EC3F811C292B5300939351 /* AppDelegate.m */,
 				12EC3F831C292B5300939351 /* ViewController.h */,
 				12EC3F841C292B5300939351 /* ViewController.m */,
+				12EC3FA21C292B8900939351 /* TMAsset.h */,
+				12EC3FA31C292B8900939351 /* TMAsset.m */,
+				12EC3FA41C292B8900939351 /* TMAssetsCollection.h */,
+				12EC3FA51C292B8900939351 /* TMAssetsCollection.m */,
+				12EC3FA61C292B8900939351 /* TMImageCache.h */,
+				12EC3FA71C292B8900939351 /* TMImageCache.m */,
+				12EC3FA81C292B8900939351 /* TMCachingImageManager.h */,
+				12EC3FA91C292B8900939351 /* TMCachingImageManager.m */,
 				12EC3F861C292B5300939351 /* Main.storyboard */,
 				12EC3F891C292B5300939351 /* Assets.xcassets */,
 				12EC3F8B1C292B5300939351 /* LaunchScreen.storyboard */,
@@ -212,6 +232,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				12EC3F851C292B5300939351 /* ViewController.m in Sources */,
+				12EC3FAB1C292B8900939351 /* TMAssetsCollection.m in Sources */,
+				12EC3FAD1C292B8900939351 /* TMCachingImageManager.m in Sources */,
+				12EC3FAA1C292B8900939351 /* TMAsset.m in Sources */,
+				12EC3FAC1C292B8900939351 /* TMImageCache.m in Sources */,
 				12EC3F821C292B5300939351 /* AppDelegate.m in Sources */,
 				12EC3F7F1C292B5300939351 /* main.m in Sources */,
 			);
